@@ -46,7 +46,7 @@
     </header>
     <main class="main">
         <!-- Перша секція -->
-        <section class="welcome to shop">
+        <section class="welcome-to-shop">
             <div class="welcome-container container">
                 <div class="welcome-wrap">
                     <p class="welcome-span">Welcome To Our Ice Cream Shop</p>
@@ -60,47 +60,69 @@
             </div>
         </section>
         <!-- Друга секція -->
-        <section class="popular items">
+        <section class="popular-items">
             <div class="popular-container container">
-                <div class="first-ice-cream">
-                    <h3 class="itemes">Popular items</h3>
-                    <p class="popular-text">35 items</p>
-                    <a class="popular-link">Shop Now</a>
-                    <img class="popular-img" src="img/ica2 1.png" alt="Морозиво">
-                </div>
-                <div class="second-ice-cream">
-                    <h3 class="itemes">Popular items</h3>
-                    <p class="popular-text">35 items</p>
-                    <a class="popular-link">Shop Now</a>
-                    <img class="popular-img" src="img/ica3 1.png" alt="Морозиво">
-                </div>
+                <ul class="popular-list">
+                    <li class="popular-item">
+                        <div class="popular-wrap">
+                            <h3 class="itemes">Popular items</h3>
+                            <p class="popular-text">35 items</p>
+                            <a class="popular-link" href="#">Shop Now</a>
+                        </div>
+                        <img class="popular-img" src="img/ica2 1.png" alt="Морозиво">
+                    </li>
+                    <li class="popular-item">
+                        <div class="popular-wrap">
+                            <h3 class="itemes">Popular items</h3>
+                            <p class="popular-text">35 items</p>
+                            <a class="popular-link" href="#">Shop Now</a>
+                        </div>
+                        <img class="popular-img" src="img/ica3 1.png" alt="Морозиво">
+                    </li>
+                </ul>
             </div>
         </section>
         <!-- Третя секція -->
-        <section class="top flavor's">
+        <section class="top-flavor's">
             <div class="top-container container">
                 <h2 class="top-of-ice-creame">Top Flavor's of Our Ice Cream</h2>
                 <p class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt dolore magna aliqua.</p>
-                    <div class="top-img">
-                        <img class="top-img" src="img/Rectangle 5.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 6.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 7.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 8.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 9.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 10.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 11.png" alt="Морозиво">
-                        <img class="top-img" src="img/Rectangle 12.png" alt="Морозиво">
-                    </div>
+                <div class="top-img">
+                    <ul class="top-wraper">
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 5.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 6.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 7.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 8.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 9.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 10.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 11.png" alt="Морозиво"></li>
+                        <li class="top-item"><img class="top-img" src="img/Rectangle 12.png" alt="Морозиво"></li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- Четверта секція -->
         <section class="contacts">
-            <div class="email">
-                <img class="contacts-img" src="img/email 1.png">
-                <h3>Email Us:</h3>
-                <p class="contacts-text">hello@example.com
-                    info@example.com</p>
+            <div class="contacts-container container">
+                <ul class="contacts-list">
+                    <li class="contacts-items">
+                        <img class="contacts-img" src="img/email 1.png">
+                        <h3 class="contacts-title">Email Us:</h3>
+                        <ul class="contacts-email-list">
+                            <li class="contacts-email-items"><a class="contacts-email-link"
+                                    href="mailto:hello@example.com">hello@example.com</a></li>
+
+                            <li class="contacts-email-items"><a class="contacts-email-link"
+                                    href="mailto:info@example.com"> info@example.com </a></li>
+                                    
+                            <li class="">
+
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- І два нижче так саму в цьомуж ul -->
+                </ul>
             </div>
             <div class="call">
                 <img class="contacts-img" src="img/phone-call 1.png">
@@ -108,7 +130,7 @@
                 <p class="contacts-text">+123-456-789
                     +153-567-984</p>
             </div>
-            <div class="address"> 
+            <div class="address">
                 <img class="contacts-img" src="img/location 1.png">
                 <h3>Address:</h3>
                 <p class="contacts-text">Flatiron Building, 175 5th Ave, New York, NY 10010, USA</p>
@@ -118,8 +140,10 @@
     <!-- Футер -->
     <footer class="footer">
         <div class="footer-container container">
-            <img class="footer-img" src="img/image 1.png" alt="Логотип">
-            <span class="footer-span">GLACIAJO</span>
+            <div class="footer-wrap">
+                <img class="footer-img" src="img/image 1.png" alt="Логотип">
+                <span class="footer-span">GLACIAJO</span>
+            </div>
             <p class="footer-text">© 2023 All Rights Reserved. Privacy Policy</p>
         </div>
     </footer>
