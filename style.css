@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+}
+/* header */
+
+header {
+    background: #fff;
+    padding-bottom: 34px;
+}
+.header-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.header-logo {
+    display: flex;
+}
+.header-text {
+    margin-top: 42px;
+    font-size: 24px;
+    color: #ff993a;
+    font-family: "Raleway", sans-serif;
+}
+.header-img {
+    width: 80px;
+    margin-top: 20px;
+    padding-right: 37px;
+}
+.header-link {
+    color: #000;
+}
+.header-list {
+    display: flex;
+    margin-top: 48px;
+    gap: 65px;
+}
+.header-link-one {
+    display: flex;
+    color: #ff993a;
+    padding-left: 188px;
+}
+/* Перша секція */
+
+.welcome-container {
+    display: flex;
+}
+.welcome-to-shop {
+    background: #ffe4cc;
+}
+.welcome-span {
+    font-size: 16px;
+    color: #ff993a;
+    font-family: "Raleway", sans-serif;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.welcome-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #ff463a;
+    padding-bottom: 45px;
+    width: 290px;
+}
+.welcome-text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 45px;
+    width: 527px;
+    padding-right: 397px;
+}
+.welcome-link {
+    border-radius: 5px;
+    background: #ff463a;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+}
+/* Друга секція */
+.popular-items {
+    background: #fff;
+}
+.popular-list {
+    display: flex;
+    background: #efefef;
+    justify-content: space-around;
+}
+.itemes {
+    font-size: 36px;
+    color: #ff463a; 
+}
+.popular-text {
+    font-size: 20px;
+}
+.popular-link {
+    font-size: 20px;
+    border-radius: 5px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 15px 30px;
+    display: inline-block;
+}
+/* Третя секція */
+.top-flavors {
+    background: #ffe4cc;
+}
+.top-of-ice-creame {
+    font-size: 48px;
+    text-align: center;
+    color: #ff463a;
+    font-family: "Raleway", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.top-text {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    padding-bottom: 68px;
+    width: 790px;
+}
+.top-wraper {
+    display: flex;
+    border-radius: 5px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
