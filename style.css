@@ -24,45 +24,45 @@ ul {
 
 .container {
     margin: 0 auto;
-    width: 1120px;
+    width: 1620px;
 }
 /* header */
 
 header {
     background: #fff;
-    padding-bottom: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-container {
     display: flex;
-    align-self: center;
-    justify-content: space-between;
+    align-items: center;
+    gap: 188px;
 }
 .header-logo {
     display: flex;
+    align-items: center;
 }
 .header-text {
-    margin-top: 42px;
     font-size: 24px;
     color: #ff993a;
-    font-family: "Raleway", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 .header-img {
     width: 80px;
-    margin-top: 20px;
     padding-right: 37px;
 }
 .header-link {
     color: #000;
+    font-family: "Raleway", sans-serif;
 }
 .header-list {
     display: flex;
-    margin-top: 48px;
     gap: 65px;
 }
 .header-link-one {
     display: flex;
     color: #ff993a;
-    padding-left: 188px;
+    font-family: "Raleway", sans-serif;
 }
 /* Перша секція */
 
@@ -147,8 +147,6 @@ header {
 .top-wraper {
     display: flex;
     border-radius: 5px;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 
