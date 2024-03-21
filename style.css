@@ -36,16 +36,16 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    gap: 188px;
+    gap: 198px;
 }
 .header-logo {
     display: flex;
     align-items: center;
 }
 .header-text {
-    font-size: 24px;
     color: #ff993a;
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
 }
 .header-img {
     width: 80px;
@@ -72,12 +72,12 @@ header {
 }
 .welcome-to-shop {
     background: #ffe4cc;
+    padding-top: 120px;
 }
 .welcome-span {
     font-size: 16px;
     color: #ff993a;
     font-family: "Raleway", sans-serif;
-    padding-top: 120px;
     padding-bottom: 20px;
 }
 .welcome-title {
@@ -93,7 +93,7 @@ header {
     font-size: 20px;
     padding-bottom: 45px;
     width: 527px;
-    padding-right: 397px;
+    gap: 397px;
     font-family: "Nunito", sans-serif;
 }
 .welcome-link {
@@ -109,6 +109,8 @@ header {
 /* Друга секція */
 .popular-items {
     background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .itemes {
     font-size: 36px;
@@ -133,8 +135,7 @@ header {
 .popular-list {
     display: flex;
     gap: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 70 40 40 140px;
 }
 .popular-text {
     font-size: 20px;
@@ -181,13 +182,13 @@ header {
 
 .contacts {
     background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .contacts-list {
     display: flex;
     text-align: center;
     gap: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 .contacts-img {
     padding-top: 30px;
@@ -196,9 +197,7 @@ header {
 .contacts-title {
     padding-bottom: 25px;
     color: #ff463a;
-}
-.contacts-email-list {
-    padding-bottom: 53px;
+    font-size: 32px;
 }
 .contacts-email-link {
     color: #000;
