@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Jost", sans-serif;
     font-size: 24px;
+    font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -72,7 +72,7 @@ header {
 }
 .welcome-to-shop {
     background: #ffe4cc;
-    padding-top: 120px;
+    padding-top: 134px;
 }
 .welcome-span {
     font-size: 16px;
@@ -92,8 +92,8 @@ header {
     font-weight: 500;
     font-size: 20px;
     padding-bottom: 45px;
+    padding-right: 397px;
     width: 527px;
-    gap: 397px;
     font-family: "Nunito", sans-serif;
 }
 .welcome-link {
@@ -142,6 +142,7 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     padding-bottom: 45px;
+    padding-top: 10px;
 }
 .popular-link {
     font-size: 20px;
@@ -163,7 +164,7 @@ header {
     font-size: 48px;
     text-align: center;
     color: #ff463a;
-    font-family: "Raleway", sans-serif;
+    font-family: "Nunito", sans-serif;
     padding-bottom: 40px;
 }
 .top-text {
@@ -171,6 +172,7 @@ header {
     text-align: center;
     color: #000;
     padding-bottom: 68px;
+    font-family: "Raleway", sans-serif;
 }
 .top-wraper {
     display: flex;
@@ -199,6 +201,7 @@ header {
     padding-bottom: 25px;
     color: #ff463a;
     font-size: 32px;
+    font-family: "Nunito", sans-serif;
 }
 .contacts-email-link {
     color: #000;
@@ -216,6 +219,7 @@ header {
 }
 .contacts-items:hover {
     background-color: #ff463a;
+    color: white;
 }
 /* Футер */
 .footer {
