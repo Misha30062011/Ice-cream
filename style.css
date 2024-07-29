@@ -51,6 +51,9 @@ header {
     width: 80px;
     padding-right: 37px;
 }
+.header-wrap {
+    padding-right: 188px;
+}
 .header-link {
     color: #000;
     font-family: "Raleway", sans-serif;
@@ -109,8 +112,8 @@ header {
 /* Друга секція */
 .popular-items {
     background: #fff;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 .itemes {
     font-size: 36px;
@@ -202,12 +205,6 @@ header {
     color: #ff463a;
     font-size: 32px;
     font-family: "Nunito", sans-serif;
-}
-.contacts-email-link {
-    color: #000;
-}
-.contacts-call-link {
-    color: #000;
 }
 .contacts-items {
     padding-bottom: 53px;
